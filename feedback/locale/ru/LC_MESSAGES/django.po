@@ -1,0 +1,51 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-02-05 21:42+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: models.py:9
+msgid "User"
+msgstr "Пользователь"
+
+#: models.py:10
+msgid "Type"
+msgstr "Тема"
+
+#: models.py:11
+msgid "Message"
+msgstr "Текст сообщения"
+
+#: models.py:12
+msgid "Time"
+msgstr "Время"
+
+#: models.py:16 templates/feedback/index.html:13
+#: templates/feedback/view_feedback.html:6
+msgid "Feedback"
+msgstr "Обратная связь"
+
+#: models.py:17
+msgid "Feedbacks"
+msgstr "Обратная связь"
+
+#: views.py:14
+msgid "Your feedback has been saved successfully."
+msgstr "Ваше сообщение было успешно отправлено."
+
+#: templates/feedback/view_feedback.html:5
+msgid "Home"
+msgstr ""
