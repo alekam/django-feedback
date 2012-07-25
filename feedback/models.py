@@ -5,9 +5,14 @@ from django.db import models
 from django.utils.translation import ugettext_lazy as _
 
 
+__all__ = ['Feedback', ]
+
+
 class Feedback(models.Model):
-    user = models.ForeignKey(User, blank=True, null=True, verbose_name=_('User'))
-    type = models.CharField(_('Type'), choices=settings.FEEDBACK_CHOICES, max_length=100)
+    user = models.ForeignKey(User, blank=True, null=True,
+                             verbose_name=_('User'))
+    name = models.CharField(_('Contact name'), max_length=75)
+    email = models.EmailField(_('Email'))
     message = models.TextField(_('Message'))
     time = models.DateTimeField(_('Time'), auto_now_add=True)
 
